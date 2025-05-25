@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f7;
+}
+
+header {
+  background-color: #1f5e5e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #296b6b;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #296b6b;
+}
+
+footer {
+  background-color: #296b6b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #388e3c;
+}
+
+nav#acessibilidade {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #e8f5e9;
+  padding: 1rem;
+}
+
+nav#acessibilidade button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Ajustar header e nav para cores escuras */
+.contrast header,
+.contrast nav {
+  background-color: #222 !important;
+}
+
+/* Ajustar botões para ficarem visíveis no modo contraste */
+.contrast button {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+/* Estilo padrão */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f9f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+/* Acessibilidade: Contraste alto */
+.contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.contrast * {
+  background-color: transparent !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+/* Header e navegação */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav#acessibilidade {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #e8f5e9;
+  padding: 1rem;
+}
+
+nav#acessibilidade button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Botões no modo contraste */
+.contrast nav button {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 2px solid #fff !important;
+}
+
+/* Imagens no modo contraste */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.contrast img {
+  border: 2px solid #fff;
+}
+
+/* Listas */
+ul {
+  padding-left: 1.5rem;
+}
+
+.contrast ul {
+  color: #fff !important;
+}
+
+
